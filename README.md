@@ -6,6 +6,8 @@ Specialized AI agent definitions for multi-agent workflows. Each `.agent.md` fil
 
 Use the `@supercorks/skills-installer` CLI:
 
+Installer repository: [supercorks/agent-skills-installer](https://github.com/supercorks/agent-skills-installer)
+
 ```bash
 npx @supercorks/skills-installer
 ```
