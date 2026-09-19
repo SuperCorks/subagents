@@ -37,6 +37,18 @@ Select the subagents you want to install. They will be placed in your chosen dir
 | **Security Auditor** | Red team agent that identifies vulnerabilities using OWASP patterns |
 | **UX Reviewer** | Design-focused QA for aesthetics, usability, and accessibility |
 
+### Conductor Workers
+
+Workers for the `agent-conductor` skill. Their frontmatter pins the model and effort per harness (`model`/`effort` for Claude Code, `codex_model`/`codex_effort` for the Codex TOML conversion).
+
+| Agent | Description |
+|-------|-------------|
+| **Conductor Implementer** | Implements one task packet inside its scope on Opus 4.8 / GPT-5.6 Sol at xhigh |
+| **Conductor Reviewer** | Verifies a task against its packet and report, then records accepted or rejected |
+| **Conductor Explorer** | Read-only exploration that answers one planning question in a short brief |
+| **Conductor Monitor** | Watches one long external process (CI, deploy) on Sonnet / Luna and reports events |
+| **Conductor Computer Use** | Browser and desktop work on GPT-6 Astra at medium reasoning (Codex only) |
+
 ## Standard Workflow
 
 The recommended workflow orchestrated by the **Orchestrator** agent:
