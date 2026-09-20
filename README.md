@@ -43,7 +43,7 @@ Workers for the `agent-conductor` skill. Their frontmatter pins the model and ef
 
 | Agent | Description |
 |-------|-------------|
-| **Conductor Implementer** | Implements one task packet inside its scope on Opus 4.8 / GPT-5.6 Sol at xhigh |
+| **Conductor Implementer** | Implements one task packet inside its scope on Opus 5 / GPT-5.6 Sol at high |
 | **Conductor Reviewer** | Verifies a task against its packet and report, then records accepted or rejected |
 | **Conductor Explorer** | Read-only exploration that answers one planning question in a short brief |
 | **Conductor Monitor** | Watches one long external process (CI, deploy) on Sonnet / Luna and reports events |

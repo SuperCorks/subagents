@@ -1,8 +1,8 @@
 ---
 name: conductor-reviewer
 description: 'Verifies one agent-conductor task against its packet and report, runs the verification commands, inspects the diff, and records accepted or rejected with reasons. Never fixes code.'
-model: claude-opus-4-8
-effort: xhigh
+model: claude-opus-5
+effort: high
 codex_model: gpt-5.6-sol
 ---
 

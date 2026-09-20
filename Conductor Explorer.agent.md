@@ -1,8 +1,8 @@
 ---
 name: conductor-explorer
 description: 'Read-only codebase exploration for an agent-conductor master: answers one planning question with file paths and line numbers in a short brief so the master never reads large files.'
-model: claude-opus-4-8
-effort: xhigh
+model: claude-opus-5
+effort: high
 codex_model: gpt-5.6-sol
 ---
 

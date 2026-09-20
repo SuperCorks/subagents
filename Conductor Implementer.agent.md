@@ -1,8 +1,8 @@
 ---
 name: conductor-implementer
 description: 'Implements one agent-conductor task packet inside its declared scope, reports through the conductor protocol, and never commits unless the packet says so.'
-model: claude-opus-4-8
-effort: xhigh
+model: claude-opus-5
+effort: high
 codex_model: gpt-5.6-sol
 ---
 
