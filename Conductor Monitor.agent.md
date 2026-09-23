@@ -3,7 +3,7 @@ name: conductor-monitor
 description: 'Watches one long-running external process (CI run, deployment, long build) for an agent-conductor master and reports milestones, failures, and completion through conductor events. Cheap model, no code changes.'
 model: sonnet
 effort: medium
-codex_model: gpt-5.6-luna
+codex_model: gpt-6-luna
 codex_effort: medium
 ---
 
